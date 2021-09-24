@@ -43,6 +43,16 @@ public class LineComparision {
         //Check the line length are equal or not if equal print true if not print false
         System.out.println(length==length1);
 
+        //Checking which one is greater or smaller
+        if (length>length1)
+        {
+            System.out.println("Line 1 is greater than Line 2");
+        }
+        if (length<length1)
+        {
+            System.out.println("Lin 2 is greater than Line 2");
+        }
+
     }
 }
 class Comparision{
